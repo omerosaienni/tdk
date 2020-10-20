@@ -4,6 +4,14 @@
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
+    {
+      "type": "bashdb",
+      "request": "launch",
+      "name": "Bash-Debug (decommission.sh)",
+      "cwd": "${workspaceFolder}/tools/decommission_account/",
+      "program": "${workspaceFolder}/tools/decommission_account/decommission.sh",
+      "args": []
+    },
     // {
     //   "name": "Python: run_controls",
     //   "type": "python",
